@@ -1,0 +1,12 @@
+.next/
+.vscode/
+build/
+dist/
+node_modules/
+trash/
+venv/
+
+*.tsbuildinfo
+COMMIT_EDITMSG
+commit_message.txt
+input.md
