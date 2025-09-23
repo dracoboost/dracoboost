@@ -1,14 +1,15 @@
 {
   "name": "dracoboost-profile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint:check": "npm exec eslint -- --ext .js,.jsx,.mjs,.ts,.tsx && tsc --noEmit",
     "lint:fix": "npm exec eslint -- --fix --ext .js,.jsx,.mjs,.ts,.tsx",
-    "preflight": "npm run lint:fix && npm run lint:check && npm run build",
-    "start": "next start"
+    "preflight": "npm run update-versions && npm run lint:fix && npm run lint:check && npm run build",
+    "start": "next start",
+    "update-versions": "cd .. && venv/bin/python scripts/update_website_version.py"
   },
   "browserslist": [
     ">0.5%",

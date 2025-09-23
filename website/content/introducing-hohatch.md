@@ -1,6 +1,6 @@
 ---
 title: "Introducing HoHatch: A Powerful Modding Tool for Shadowverse: Worlds Beyond"
-date: "2025-09-22"
+date: "2025-09-23"
 excerpt: "Discover HoHatch, the essential desktop app for Shadowverse: Worlds Beyond modders. Effortlessly convert, manage, and inject DDS/JPG image files with a modern, user-friendly interface."
 thumbnail: "/images/hohatch/hohatch-application-screenshot.jpg"
 author:

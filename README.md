@@ -1,11 +1,11 @@
 <!-- Profile Card -->
-<h1 align="center">Hi there, I'm <img src="images/avatars/dracoboost.png" alt="dracoboost" height="32" width="32" valign="middle" />dracoboost</h1>
+<h1 align="center">Hi there, I'm <img src="images/avatars/dracoboost.png" alt="dracoboost" height="30" width="30" valign="middle" />dracoboost</h1>
 
 <!-- dracoboost's Blog -->
 <h2 align="center">dracoboost's Blog</h2>
 
 <a href="https://draco.moe" target="_blank" rel="noopener noreferrer">
-  <img alt="dracoboost's Blog" src="website/public/images/logos/dracoboost-blog-logo.png" width="100%">
+  <img alt="dracoboost's Blog" src="website/public/images/og/dracoboost-og-1200x600.png" width="100%">
 </a>
 
 <!-- HoHatch Card -->
