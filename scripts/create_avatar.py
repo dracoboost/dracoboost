@@ -56,7 +56,7 @@ def main():
     print("Applying circular crop...")
     circular_avatar = apply_circular_mask(avatar)
 
-    output_dir = "images/avatars"
+    output_dir = "github_profile/images/avatars"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 

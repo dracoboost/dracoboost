@@ -1,10 +1,13 @@
-.next/
-.vscode/
-build/
-dist/
-node_modules/
-trash/
-venv/
+.next
+.venv
+.vscode
+build
+node_modules
+
+/dist
+/hohatch
+/themes
+/trash
 
 *.tsbuildinfo
 COMMIT_EDITMSG

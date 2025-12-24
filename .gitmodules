@@ -1,0 +1,16 @@
+[submodule "website/themes/ananke"]
+	path = website/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/gallery"]
+	path = themes/gallery
+	url = https://github.com/nicokaiser/hugo-theme-gallery.git
+[submodule "themes/pehtheme"]
+	path = themes/pehtheme
+	url = https://github.com/fauzanmy/pehtheme-hugo.git
+[submodule "website/themes/blowfish"]
+	path = website/themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
+	branch = main

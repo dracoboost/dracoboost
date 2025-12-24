@@ -1,0 +1,25 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Posts"
+pageRef = "posts"
+identifier = "PhPLA953bP"
+weight = 9_999
+
+[[main]]
+name = "GitHub"
+pre = "github"
+url = "https://github.com/dracoboost"
+identifier = "Q4LmlIhpA5"
+weight = 9_999
+
+[[main]]
+name = "X-Twitter"
+pre = "x-twitter"
+url = "https://x.com/dracoboost"
+identifier = "SUEtyY69MO"
+weight = 9_999
+
+[[footer]]
+none = "none"

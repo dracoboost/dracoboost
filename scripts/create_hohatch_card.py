@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import os
 import requests
 from io import BytesIO
@@ -101,10 +100,10 @@ def download_font(font_url, font_path):
 
 def main():
     """Main function to generate the HoHatch card."""
-    base_image = "images/hohatch/hohatch-application-screenshot.jpg"
+    base_image = "github_profile/images/hohatch/hohatch-application-screenshot.jpg"
     font_url = "https://github.com/EkType/Baloo2-Variable/raw/v2.000/fonts/ttf/BalooTamma2-Regular.ttf"
-    font_path = "fonts/BalooTamma2-Regular.ttf"
-    output_file = "images/cards/hohatch-application-screenshot.jpg"
+    font_path = "github_profile/fonts/BalooTamma2-Regular.ttf"
+    output_file = "github_profile/images/cards/hohatch-application-screenshot.jpg"
 
     if not download_font(font_url, font_path):
         return
