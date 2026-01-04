@@ -1,16 +1,16 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+languageCode = "ja"
+languageName = "Japanese"
 weight = 1
 title = "dracoboost gallery"
 
 [params]
-displayName = "EN"
-isoCode = "en"
+displayName = "JA"
+isoCode = "ja"
 rtl = false
-dateFormat = "1/2/2006"
+dateFormat = "2006/1/2"
 logo = "maliss.jpg"
-description = "dracoboost's blog and distribution of created software"
+description = "dracoboostのブログと作成したソフトウェアの配布"
 
 [params.author]
 name = "dracoboost"

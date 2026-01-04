@@ -67,7 +67,7 @@ def create_card(card_name, base_image_path, platforms, output_dir):
             # 1b4c7a
             color = (27, 76, 122, 255)  # Steam Blue
 
-        icon_path = os.path.join("github_profile/images/games/platforms", f"{platform}.png")
+        icon_path = os.path.join("github_profile/images/cards/games/platforms", f"{platform}.png")
 
         if color and os.path.exists(icon_path):
             draw = ImageDraw.Draw(base_image)
@@ -147,19 +147,19 @@ GAMES_TO_GENERATE = [
     },
     {
         "card_name": "romancing-saga-2-revenge-of-the-seven",
-        "base_image_path": "github_profile/images/games/nintendo_switch/romancing-saga-2_revenge-of-the-seven.jpg",
+        "base_image_path": "github_profile/images/cards/games/nintendo_switch/romancing-saga-2_revenge-of-the-seven.jpg",
         "platforms": ["nintendo-switch"],
     },
     {
         "card_name": "octopath-traveler-2",
-        "base_image_path": "github_profile/images/games/nintendo_switch/octopath-traveler-ii.jpg",
+        "base_image_path": "github_profile/images/cards/games/nintendo_switch/octopath-traveler-ii.jpg",
         "platforms": ["nintendo-switch"],
     },
 ]
 
 
 if __name__ == "__main__":
-    output_dir = "github_profile/images/games/cards"
+    output_dir = "github_profile/images/cards/cards"
     print("Starting card generation...")
     for game in GAMES_TO_GENERATE:
         print(f"Generating card for {game['card_name']}...")
