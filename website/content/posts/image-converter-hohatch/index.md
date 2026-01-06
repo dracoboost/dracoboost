@@ -1,8 +1,8 @@
 ---
 title: "Shadowverse MOD Image Conversion Software Hohatch"
-date: 2025-12-28
+date: 2026-01-06
 draft: false
-description: "a description"
+description: "Here's an introduction to the developed HoHatch. HoHatch is an application designed to support Shadowverse: Worlds Beyond mod creation by converting JPG and DDS images and managing DDS images."
 tags: ["hohatch"]
 ---
 
@@ -57,16 +57,17 @@ The backend follows a service-oriented architecture, making the codebase modular
 
 ### Contributing
 
-We welcome contributions! The project is hosted on GitHub. Before committing any changes, please ensure you run the pre-flight checks to maintain code quality and stability:
+We welcome contributions!
+
+Check out the project on our **[GitHub Repository](https://github.com/dracoboost/hohatch)** to learn more or get involved!
+
+{{< github repo="dracoboost/hohatch" >}}
+
+The project is hosted on GitHub. Before committing any changes, please ensure you run the pre-flight checks to maintain code quality and stability.
+You can find more detailed development guidelines and a complete overview of the project structure in the `GEMINI.md` files within the repository.
 
 ```sh
 # From the frontend directory
 cd frontend
 npm run preflight
 ```
-
-You can find more detailed development guidelines and a complete overview of the project structure in the `GEMINI.md` files within the repository.
-
-Check out the project on our **[GitHub Repository](https://github.com/dracoboost/hohatch)** to learn more or get involved!
-
-{{< github repo="dracoboost/hohatch" >}}

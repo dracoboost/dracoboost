@@ -5,18 +5,20 @@ weight = 1
 title = "dracoboost gallery"
 
 [params]
-displayName = "EN"
+displayName = "English"
 isoCode = "en"
 rtl = false
 dateFormat = "1/2/2006"
-logo = "maliss.jpg"
+logo = "img/maliss.jpg"
 description = "dracoboost's blog and distribution of created software"
 
 [params.author]
 name = "dracoboost"
-image = "avatar.png"
+image = "img/avatar.png"
 headline = "HoHatch Developer"
 
 [[params.author.links]]
-github = "https://github.com/dracoboost"
 x-twitter = "https://twitter.com/dracoboost"
+
+[[params.author.links]]
+github = "https://github.com/dracoboost"

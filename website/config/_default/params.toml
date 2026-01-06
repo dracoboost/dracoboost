@@ -1,7 +1,7 @@
 colorScheme = "blowfish"
 defaultAppearance = "light"
 autoSwitchAppearance = true
-enableA11y = true
+enableA11y = false
 enableSearch = true
 enableCodeCopy = true
 enableStructuredBreadcrumbs = false
@@ -21,6 +21,8 @@ buymeacoffee = { }
 verification = { }
 rssnext = { }
 advertisement = { }
+defaultBackgroundImage = "/img/rune-factory-guardians-of-azuma.jpg"
+defaultFeaturedImage = "/img/dracoboost-og.png"
 
 [header]
 layout = "basic"
@@ -42,7 +44,7 @@ cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = false
-homepageImage = "dracoboost-og.png"
+homepageImage = "/img/dracoboost-og.png"
 
 [article]
 showDate = true
@@ -51,10 +53,10 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -69,6 +71,9 @@ showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = false
 showZenMode = false
+heroStyle = "basic"
+showRelatedContent = ""
+relatedContentLimit = "4"
 
 [list]
 showHero = false

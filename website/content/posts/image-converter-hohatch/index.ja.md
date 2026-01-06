@@ -1,12 +1,14 @@
 ---
 title: "Shadowverse MOD画像変換ソフトHohatchについて"
-date: 2025-12-28
+date: 2026-01-06
 draft: false
-description: "a description"
+description: "開発したHoHatchに付いて紹介する。HoHatchはShadowverse: Worlds BeyondのMOD作成の支援のため、JPG・DDS画像の変換および、DDS画像の管理を行うアプリケーションである。"
 tags: ["hohatch"]
 ---
 
-## HoHatch
+## HoHatch とは？
+
+2025/8/29に初リリースを[GitHubに公開](https://github.com/dracoboost/hohatch/tree/c94031b6fdacf581d5993a0c7be9bc4df188a04d)し、2025/10/5に[Redditに公開](https://www.reddit.com/r/ShadowverseMods/comments/1naxk3j/hohatch_streamline_shadowversewb_modding/)したHoHatchについて紹介する。
 
 HoHatch (ダウンロード先 **[dracoboost/hohatch Releases Page](https://github.com/dracoboost/hohatch/releases)**) は  
 Windows用インジェクションソフトウェアSpecial Kを用いた[**Shadowverse: Worlds Beyond**](https://shadowverse-wb.com/en/) (以下、ビヨンド) への  
@@ -74,12 +76,13 @@ DDS画像からJPG画像への変換、MOD済みJPG画像の作成、そのJPG�
 ほとんど求めていた機能は完成したが、  
 何か機能を追加したいかつ、Python、Next.jsを書ける人はぜひコントリビュートしていただきたい。
 
+{{< github repo="dracoboost/hohatch" >}}
+
 注意点としては、更新前にpreflightチェックが成功することを確認してほしい。
+細かいガイドラインは、英語だが `GEMINI.md` を読んでほしい。
 
 ```sh
 # From the frontend directory
 cd frontend
 npm run preflight
 ```
-
-細かいガイドラインは、英語だが `GEMINI.md` を読んでほしい。
