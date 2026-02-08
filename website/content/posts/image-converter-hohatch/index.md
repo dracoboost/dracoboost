@@ -1,70 +1,46 @@
 ---
-title: "Shadowverse MOD Image Conversion Software Hohatch"
+title: "About HoHatch – Shadowverse MOD Image Conversion Tool"
 date: 2026-01-06
+lastmod: 2026-02-08
 draft: false
-description: "Here's an introduction to the developed HoHatch. HoHatch is an application designed to support Shadowverse: Worlds Beyond mod creation by converting JPG and DDS images and managing DDS images."
+description: "Introducing HoHatch, a tool developed to assist with MOD creation for Shadowverse: Worlds Beyond. It handles conversion between JPG and DDS images, as well as management of DDS files."
 tags: ["hohatch"]
 ---
 
+## What is HoHatch?
 
-For modders of [**Shadowverse: Worlds Beyond**](https://shadowverse-wb.com/en/), managing and converting image assets can be a tedious but necessary part of the creative process. Manually handling DDS and JPG files, ensuring they are in the correct format, and moving them to the right folders for injection with Special K is often a cumbersome workflow.
+*HoHatch** (Download: [HoHatch - the JPG/DDS converter for modding ShadowverseWB](https://hohatch.draco.moe)) is a Windows desktop application designed to support MOD creation for  
+[**Shadowverse: Worlds Beyond**](https://shadowverse-wb.com/en/) (hereinafter referred to as "ShadowverseWB") using the Special K injection tool.  
+It specializes in converting between JPG and DDS formats and managing DDS texture files.
 
-**HoHatch** is a desktop application built to solve exactly this problem. It provides a streamlined, intuitive interface for managing and converting image files, allowing you to focus on creating great mods, not fighting with file formats.
+For ShadowverseWB MOD creators, spending time on anything other than the actual artwork creation process can be very frustrating.  
+The typical workflow for creating MOD images includes:
+
+* Extracting original DDS files from the game using Special K  
+* Converting those DDS files to editable JPGs  
+* Editing/modifying the JPGs  
+* Converting the edited JPGs back to DDS format for injection
+
+HoHatch was created to streamline and make the image conversion and file management part of this workflow as efficient and intuitive as possible, allowing creators to focus more on the creative artwork itself.
 
 ![HoHatch Application Screenshot](/images/hohatch/hohatch-application-screenshot.jpg)
 
-## Key Features for Modders
+## Future Plans
 
-HoHatch is designed with the mod author's workflow in mind, offering a suite of powerful features accessible from a clean and modern UI.
+* DDS ↔ PNG conversion is not yet implemented.  
+  When using texconv with PNG input, it often produces completely black output.  
+  Fixing this issue likely requires a fundamental change in the conversion pipeline, so it has been postponed for now.
 
-### Seamless Image Conversion & Management
+## For Contributors
 
-The main screen is your central hub for all image-related tasks. It's split into two clear sections:
-
-* **Dumped DDS Images**: Images extracted from the game using Special K's dump feature. These are your raw materials for creating new mods.
-* **Injected DDS Images**: Modded images ready to be injected into the game.
-
-From here, you can perform several actions:
-
-* **JPG to DDS**: Convert your edited JPG files into the DDS format required by the game and automatically place them in the `inject/textures` folder.
-* **DDS to JPG**: Convert dumped DDS files into JPGs, so you can easily edit them in your favorite image editor.
-* **Batch Operations**: Select multiple images and download them as JPGs or delete them in a single click, saving you valuable time.
-* **Individual Actions**: Each image has quick-action buttons to download, replace, or delete it individually.
-
-### Smart & Simple Settings
-
-The settings screen gives you full control over how HoHatch works:
-
-* **Dependency Downloads**: Instantly download the correct versions of **Texconv** and **Special K** directly from the app, ensuring you always have the right tools.
-* **Custom Image Dimensions**: Set a desired height for your converted images, and HoHatch will automatically calculate the correct width (53/64 ratio) to prevent distortion in-game.
-* **Language Toggle**: Switch between English and Japanese interfaces.
-
-## Getting Started
-
-HoHatch is a Windows-only application.
-
-To get started, simply download the latest executable from the **[HoHatch Releases Page](https://github.com/dracoboost/hohatch/releases)** and run it. No complex installation is required.
-
----
-
-## For Developers
-
-Interested in the technology behind HoHatch or want to contribute?
-
-HoHatch is built with a modern tech stack, featuring a **React** frontend (using Next.js and Tailwind CSS) and a **Python** backend powered by **PyWebView**. This architecture allows for a fast, responsive user interface combined with powerful backend processing.
-
-The backend follows a service-oriented architecture, making the codebase modular, testable, and easy to maintain.
-
-### Contributing
-
-We welcome contributions!
-
-Check out the project on our **[GitHub Repository](https://github.com/dracoboost/hohatch)** to learn more or get involved!
+Currently, I'm the only one developing HoHatch (**[dracoboost/hohatch](https://github.com/dracoboost/hohatch)**).  
+Most of the core features I personally needed have already been implemented, but  
+if you would like to add new features and are comfortable writing **Python** and/or **Next.js**, contributions are very welcome!
 
 {{< github repo="dracoboost/hohatch" >}}
 
-The project is hosted on GitHub. Before committing any changes, please ensure you run the pre-flight checks to maintain code quality and stability.
-You can find more detailed development guidelines and a complete overview of the project structure in the `GEMINI.md` files within the repository.
+Please make sure the preflight check passes before submitting updates.  
+For detailed guidelines (in English), please read `GEMINI.md`.
 
 ```sh
 # From the frontend directory
